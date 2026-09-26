@@ -22,7 +22,7 @@ public class UsuarioService {
 
     public boolean autenticar(String correo, String contrasenia){
         Usuario usuario = usuarios.get(correo);
-        return usuario != null && usuario.getContrasena().equals(contrasenia);
+        return usuario != null && usuario.getContrasenia().equals(contrasenia);
     }
 
 

@@ -41,14 +41,8 @@ public class Usuario {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
+    public String getContrasenia() { return contrasenia; }
 
-    public String getContrasena() {
-        return contrasenia;
-    }
-
-    public void setContrasena(String contrasenia) {
-        this.contrasenia = contrasenia;
-    }
 
     public String getPseudonimo() {
         return pseudonimo;

@@ -17,7 +17,7 @@ public class UsuarioController {
         this.usuarioService = usuarioService;
     }
 
-    @GetMapping({"index.html", "index"})
+    @GetMapping({"/index", "/index.html"})
     public String index(){
         return "index";
     }
